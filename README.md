@@ -44,3 +44,4 @@ The website specifications includes the following:
 ![alt text](./images/product_grid.jpg)
 
 
+# MidTermPractice
