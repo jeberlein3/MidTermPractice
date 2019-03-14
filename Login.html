@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        IS 183 Midterm
+
+    </title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+
+        }
+
+        body,
+        html {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .main-container {
+            display: grid;
+            grid-template-rows: 1fr 13fr 1fr;
+            grid-row-gap: 1em;
+            height: 100%;
+        }
+
+        .r1,
+        .r3 {
+            display: grid;
+            background-color: gray;
+            padding: 1em;
+            align-items: center;
+
+        }
+
+        .r3 {
+            text-align: center;
+        }
+
+        .r2 {
+            height: 100%;
+        }
+
+        .left-nav {
+            list-style: none;
+        }
+
+        .left-nav > li > a {
+            display: block;
+            padding: 15px 0px 15px 40px;
+            transition-duration: 0.7s;
+            font-weight: bold;
+            text-decoration: none;
+
+        }
+
+        .left-nav > li > a:hover {
+            background-color: #8d8c8d;
+
+        }
+
+        .c1 {
+            min-width: 200px;
+        }
+
+        .c2 {
+            padding: 2em;
+        }
+
+        .c2 > img {
+            width: 100%;
+            align-self: center;
+            max-height: 130px;
+
+        }
+
+        h2 {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .login-form {
+            width: 500px;
+            height: 500px;
+            margin: 100px auto;
+            padding: 15px;
+        }
+
+        .user-input {
+            width: 91%;
+            padding: 15px;
+            margin: 5px;
+        }
+
+        .submit-button {
+            padding: 10px 25px;
+            background-color: #CCC;
+            float: right;
+            margin-top: 12px;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 2fr 8fr;
+            background-color: #FFF;
+            grid-column-gap: 1em;
+        }
+
+        .txt-center {
+            text-align: center;
+            margin: 15px auto 0px;
+            border-bottom: 1px solid #a8a7a7;
+            padding-bottom: 15px;
+        }
+    </style>
+</head>
+
+
+<body class="main-container">
+    <div class="r1">
+        <h2>John Eberlein</h2>
+    </div>
+    <div class="r2 two-column">
+        <div class="c1">
+            <h2 class="txt-center">
+                Navigation
+            </h2>
+            <ul class="left-nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Link 5</a></li>
+              
+            </ul>
+
+        </div>
+        <div class="c2">
+            <form class="login-form">
+                <input placeholder="Username" type="text" name="Username" class="user-input">
+                <input placeholder="Password" type="text" name="Password" class="user-input">
+                <button onclick="" class="submit-button" type="submit">Login</button>
+            </form>
+
+        </div>
+
+    </div>
+    <div class="r3">
+        Copyright 2019 by John Eberlein.
+
+    </div>
+</body>
+
+
+
+</html>
